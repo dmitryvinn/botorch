@@ -7,6 +7,22 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+:root {
+  --ifm-color-primary: #f29837;
+  --ifm-color-primary-dark: #f08a1b;
+  --ifm-color-primary-darker: #ed820f;
+  --ifm-color-primary-darkest: #c36b0d;
+  --ifm-color-primary-light: #f4a653;
+  --ifm-color-primary-lighter: #f5ae61;
+  --ifm-color-primary-lightest: #f7c38b;
+  --ifm-color-secondary: #f0bc40;
+  --ifm-color-secondary-dark: #eeb224;
+  --ifm-color-secondary-darker: #edad16;
+  --ifm-color-secondary-darkest: #c5900f;
+  --ifm-color-secondary-light: #f2c65c;
+  --ifm-color-secondary-lighter: #f3cb6a;
+  --ifm-color-secondary-lightest: #f7da95;
+}
 
 html body {
   font-family: 'Montserrat', sans-serif;
@@ -47,25 +63,18 @@ html body {
   background-color: #222222;
 }
 
-.navigationSlider .slidingNav ul li a:hover,
-.navigationSlider .slidingNav ul li a:focus {
+.navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li a:focus {
   color: #f15a24;
   background-color: inherit;
 }
 
-.navigationSlider .slidingNav ul li.siteNavItemActive > a,
-.navigationSlider .slidingNav ul li.siteNavGroupActive > a {
+.navigationSlider .slidingNav ul li.siteNavItemActive>a, .navigationSlider .slidingNav ul li.siteNavGroupActive>a {
   background-color: inherit;
 }
 
 .homeContainer {
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    180deg,
-    rgba(2, 0, 36, 1),
-    rgba(34, 34, 34, 1) 0%,
-    rgba(28, 96, 247, 1) 100%
-  );
+  background: linear-gradient( 180deg, rgba(2, 0, 36, 1), rgba(34, 34, 34, 1) 0%, rgba(28, 96, 247, 1) 100%);
   padding: 30px 0px;
 }
 
@@ -102,7 +111,7 @@ div.productShowcaseSection {
   color: #6c6c6c;
 }
 
-.productShowcaseSection > h2 {
+.productShowcaseSection>h2 {
   font-variant: small-caps;
   font-weight: 360;
   margin: 0px;
@@ -158,17 +167,16 @@ div#quickstart ol {
   color: #f15a24;
 }
 
-a,
-p a {
+a, p a {
   color: #1c60f7;
 }
 
-a:hover,
-p a:hover {
+a:hover, p a:hover {
   color: #1c60f7;
 }
 
 /* Style docs */
+
 .toc .toggleNav .navGroup .navGroupCategoryTitle {
   color: #222222;
 }
@@ -189,9 +197,7 @@ p a:hover {
   color: #222222;
 }
 
-.mainContainer .wrapper .post h1,
-.mainContainer .wrapper .post h2,
-.mainContainer .wrapper .post h3 {
+.mainContainer .wrapper .post h1, .mainContainer .wrapper .post h2, .mainContainer .wrapper .post h3 {
   color: #222222;
 }
 
@@ -214,20 +220,19 @@ a.edit-page-link:hover {
   background-color: inherit;
 }
 
-a.docs-next,
-a.docs-prev {
+a.docs-next, a.docs-prev {
   color: #1c60f7;
   border: 1px solid #1c60f7;
 }
 
-a.docs-next:hover,
-a.docs-prev:hover {
+a.docs-next:hover, a.docs-prev:hover {
   color: #f15a24;
   border: 1px solid #f15a24;
   background-color: inherit;
 }
 
 /* Style tutorials */
+
 .tutorialBody {
   margin-top: -20px;
   color: #6c6c6c;
@@ -237,9 +242,7 @@ a.docs-prev:hover {
   margin: 0px;
 }
 
-.tutorialBody h1,
-.tutorialBody h2,
-.tutorialBody h3 {
+.tutorialBody h1, .tutorialBody h2, .tutorialBody h3 {
   color: #222222;
 }
 
@@ -249,8 +252,7 @@ a.docs-prev:hover {
   margin: 0px;
 }
 
-.tutorialBody .input_prompt,
-.tutorialBody .output_prompt {
+.tutorialBody .input_prompt, .tutorialBody .output_prompt {
   color: darkred;
   font-size: 12px;
 }
@@ -298,8 +300,7 @@ a.docs-prev:hover {
   max-width: 1400px;
 }
 
-@media only screen and (min-width: 1024px) {
-}
+@media only screen and (min-width: 1024px) {}
 
 @media only screen and (max-width: 1023px) {
   .fixedHeaderContainer header a:nth-child(2) {
@@ -315,8 +316,6 @@ a.docs-prev:hover {
   }
 }
 
-@media only screen and (min-width: 1400px) {
-}
+@media only screen and (min-width: 1400px) {}
 
-@media only screen and (min-width: 1500px) {
-}
+@media only screen and (min-width: 1500px) {}
